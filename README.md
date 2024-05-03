@@ -30,11 +30,29 @@ To deploy Sentinel and integrate it with a VM acting as a honeypot, allowing rea
 
 ![Screenshot 2024-04-24 213355](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/ffc4970b-e2de-44f3-8315-4349a1a65f3e)
 
-*Ref 1: VM Creation
+### Part 2: Opening Firewall
 
-- The first immediate suspension I see is that in the from section not only is the name "Amazon" spelled wrong but the domain isn't actually coming from Amazon. Clearly, they are trying to impersonate Amazon.
 
-- The intended recipient of the email appears to only go to one user but it would still be important to verify only one user in the company was affected.
 
-- The subject line does raise a concern to me as it implies some urgency on the recipient, although not always an immediate reason for phishing it is a common breadcrumb
+### Part 1: Creating Honeypot VM
+
+
+
+### Part 1: Creating Honeypot VM
+
+
+
+### Part 1: Creating Honeypot VM
+
+
+
+### Part 1: Creating Honeypot VM
+
+
+
+### Part 1: Creating Honeypot VM
+
+
+
+### Part 1: Creating Honeypot VM
 
