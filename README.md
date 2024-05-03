@@ -29,17 +29,28 @@ To deploy Sentinel and integrate it with a VM acting as a honeypot, allowing rea
 ### Part 1: Creating Honeypot VM
 
 ![Screenshot 2024-04-24 213355](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/ffc4970b-e2de-44f3-8315-4349a1a65f3e)
+
 *Ref 1: VM Creation
+
+- My first step was creating a virtual machine within Azure that would sit out exposed on the internet to act as my honeypot, this virtual machine would be the foundation of the entire project so I wanted to create it first. Since I want threat actors to try to brute force the machine I made sure to have an extremely secure administrator password.
+
 ### Part 2: Opening Firewall
 
 ![Screenshot 2024-04-24 213154](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/f6bcd9ed-a078-49b6-864b-b41a6bbe91ef)
+
 *Ref 2: VM Opening Ports
 
+- My next step was opening the firewall from the Azure side. I started by opening all the ports in the inbound rules and also made sure to allow any protocol, all of this is an attempt to make the honeypot easy to find online when it is set live. While in the VM, I also turned off any additional Windows Dender Firewall protections too. This can be seen below in ref. image #3.
+
 ![Screenshot 2024-04-24 222218](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/8aeb6819-311a-4d20-8143-c2364b0421b4)
+
 *Ref 3: VM Windows Defender Firewall
 
 ![Screenshot 2024-04-29 161212](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/ffc1f90e-c6c5-47dd-9479-52223f75a70b)
+
 *Ref 4: Pinging Test
+
+- To verify that the honeypot was now exposed, I took the public IP address that was provided by Azure and pinged the VM from my personal computer. It worked! So I knew the honeypot was in place.
 
 ### Part 3: Setting Up Log Analytics Workspace
 
