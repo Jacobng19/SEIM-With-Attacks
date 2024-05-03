@@ -29,30 +29,51 @@ To deploy Sentinel and integrate it with a VM acting as a honeypot, allowing rea
 ### Part 1: Creating Honeypot VM
 
 ![Screenshot 2024-04-24 213355](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/ffc4970b-e2de-44f3-8315-4349a1a65f3e)
-
+*Ref 1: VM Creation
 ### Part 2: Opening Firewall
 
+![Screenshot 2024-04-24 213154](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/f6bcd9ed-a078-49b6-864b-b41a6bbe91ef)
+*Ref 2: VM Opening Ports
+
+![Screenshot 2024-04-24 222218](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/8aeb6819-311a-4d20-8143-c2364b0421b4)
+*Ref 3: VM Windows Defender Firewall
+
+![Screenshot 2024-04-29 161212](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/ffc1f90e-c6c5-47dd-9479-52223f75a70b)
+*Ref 4: Pinging Test
+
+### Part 3: Setting Up Log Analytics Workspace
+
+![Screenshot 2024-04-24 213738](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/cdb9dea3-b4e6-4573-852c-1ba7b16758d1)
+Ref 5: Workbook Creation
+
+### Part 4: Logging Into VM 
+
+![Screenshot 2024-04-24 220020](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/9c441792-36dd-42e6-9d50-695c96e1b9de)
+*Ref 6: Remote Accessing VM
+
+![Screenshot 2024-04-24 222045](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/f754c358-1eff-4bfc-95e7-5ed6c57e8200)
+*Ref 7: Windows Event Log Failure
+
+### Part 5: Powershell Geodata Script
+
+![Screenshot 2024-04-24 223719](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/0016f1ea-6370-46ac-923a-ac9f7b4520a2)
+*Ref 8: Script Set-up
+
+![Screenshot 2024-04-24 224313](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/d59c9d04-3b23-4cf6-828c-cd6e0437a747)
+*Ref 9: Geodata Log File
+
+### Part 6: Custom Log Creation
+
+![Screenshot 2024-04-24 224643](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/3c370885-6223-4ab3-b356-4a10b16e3aac)
+*Ref 10: Custom Log
+
+### Part 7: Workbook & Map Visualization
+
+![Screenshot 2024-04-29 143518](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/72e9448b-1635-4e1b-982a-e24dff2386a7)
+*Ref 11: Workbook Creation
 
 
-### Part 1: Creating Honeypot VM
+![Screenshot 2024-04-29 144838](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/25616134-46c3-40c8-8977-e08207d09a02)
+*Ref 12: Final Attack Map
 
-
-
-### Part 1: Creating Honeypot VM
-
-
-
-### Part 1: Creating Honeypot VM
-
-
-
-### Part 1: Creating Honeypot VM
-
-
-
-### Part 1: Creating Honeypot VM
-
-
-
-### Part 1: Creating Honeypot VM
 
