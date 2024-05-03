@@ -90,13 +90,15 @@ Ref 5: Workbook Creation
 
 *Ref 10: Custom Log
 
-
+- One of the last steps before creating the map visualization of all the attacks was the bring the logs from the virtual machine to the log analytics workspace that I created earlier. Since I used a script to create a custom log within the VM, I also had to use a custom log and tell the workspace where to pull the log from the VM. Once this was created, I tested if everything was connected and turned the VM back on to let threat actors start their attacks.
 
 ### Part 7: Workbook & Map Visualization
 
 ![Screenshot 2024-04-29 143518](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/72e9448b-1635-4e1b-982a-e24dff2386a7)
+
 *Ref 11: Workbook Creation
 
+- The final step was to get the workbook/map created, although it wasn't a super simple process since I was using a custom log. I got the data of the custom logs parsed and was able to create the map to show where the live attacks were coming from. I messed around a little with the map till I found the best method using longitude and latitude. Below you can see the results of running the VM for about 6 hours. 
 
 ![Screenshot 2024-04-29 144838](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/25616134-46c3-40c8-8977-e08207d09a02)
 *Ref 12: Final Attack Map
