@@ -63,10 +63,14 @@ Ref 5: Workbook Creation
 ### Part 4: Logging Into VM 
 
 ![Screenshot 2024-04-24 220020](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/9c441792-36dd-42e6-9d50-695c96e1b9de)
+
 *Ref 6: Remote Accessing VM
 
+- With wanting threat actors to try to brute force their way into the machine, I made a point to have a few purposeful failed attempts myself to create logs to work with immediately when remote accessing the machine for the first time. Below in ref. image 7 you can also see the event log for one of my failed attempts.
+
 ![Screenshot 2024-04-24 222045](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/f754c358-1eff-4bfc-95e7-5ed6c57e8200)
-*Ref 7: Windows Event Log Failure
+
+*Ref 7: Windows Event Failure
 
 ### Part 5: Powershell Geodata Script
 
