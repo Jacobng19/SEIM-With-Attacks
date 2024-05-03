@@ -103,4 +103,6 @@ Ref 5: Workbook Creation
 ![Screenshot 2024-04-29 144838](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/25616134-46c3-40c8-8977-e08207d09a02)
 *Ref 12: Final Attack Map
 
+### Part 8: Warp-up
 
+- By deploying Microsoft Azure Sentinel and integrating it with a honeypot VM, I've gained hands-on experience with SEIM integration, log file querying, network rule management, log analytics configuration, PowerShell scripting, cyber threat monitoring, visualization techniques, and documentation/reporting.
