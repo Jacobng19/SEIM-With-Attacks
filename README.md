@@ -75,15 +75,22 @@ Ref 5: Workbook Creation
 ### Part 5: Powershell Geodata Script
 
 ![Screenshot 2024-04-24 223719](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/0016f1ea-6370-46ac-923a-ac9f7b4520a2)
+
 *Ref 8: Script Set-up
 
+- Now that I'm on the VM, I wanted to get the script running that will pull the IP addresses from the failed sign-in attempts and create a custom log with their geographical location. The tool I used to locate the IP addresses is ipgeolocation.io. Below in ref. image 9 you can see the custom text log file that it created. All of the current logs in there are test ones, including myself, and are not real threat actors. 
+
 ![Screenshot 2024-04-24 224313](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/d59c9d04-3b23-4cf6-828c-cd6e0437a747)
+
 *Ref 9: Geodata Log File
 
 ### Part 6: Custom Log Creation
 
 ![Screenshot 2024-04-24 224643](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/3c370885-6223-4ab3-b356-4a10b16e3aac)
+
 *Ref 10: Custom Log
+
+
 
 ### Part 7: Workbook & Map Visualization
 
