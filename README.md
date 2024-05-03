@@ -55,7 +55,10 @@ To deploy Sentinel and integrate it with a VM acting as a honeypot, allowing rea
 ### Part 3: Setting Up Log Analytics Workspace
 
 ![Screenshot 2024-04-24 213738](https://github.com/Jacobng19/SEIM-With-Attacks/assets/167641578/cdb9dea3-b4e6-4573-852c-1ba7b16758d1)
+
 Ref 5: Workbook Creation
+
+- The next order of action was to set up a Log Analytics workspace for a place to ingest the custom logs that I would need to pull from the VM. Once it was created, I connected the workspace to the honeypot VM. I also had to verify the data collection setting to make sure the workspace would be able to pull from the VM, which once turned on the workspace was ready to go!
 
 ### Part 4: Logging Into VM 
 
